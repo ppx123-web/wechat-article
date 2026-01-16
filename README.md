@@ -67,7 +67,7 @@ You can easily add this server to your Claude Desktop configuration:
 ```bash
 claude mcp add wechat --scope user \
   --env WECHAT_API_KEY=your_key_here \
-  --env WECHAT_FOLLOWED_ACCOUNTS_PATH=/Users/choi/Documents/meta-workflow/wechat-article/followed_accounts.json \
+  --env WECHAT_FOLLOWED_ACCOUNTS_PATH=/path/to/followed_accounts.json \
   -- \
   uvx \
   --from git+https://github.com/ppx123-web/wechat-article.git \
